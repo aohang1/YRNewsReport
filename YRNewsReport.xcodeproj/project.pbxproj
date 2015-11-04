@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E05869031BE7628A00FFFB5E /* YRTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E05869021BE7628A00FFFB5E /* YRTitleScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		E066936C1BE0C7F6005D8E5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E066936B1BE0C7F6005D8E5C /* main.m */; };
+		E066936F1BE0C7F6005D8E5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E066936E1BE0C7F6005D8E5C /* AppDelegate.m */; };
+		E06693751BE0C7F6005D8E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06693731BE0C7F6005D8E5C /* Main.storyboard */; };
+		E06693771BE0C7F6005D8E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06693761BE0C7F6005D8E5C /* Assets.xcassets */; };
+		E066937A1BE0C7F6005D8E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06693781BE0C7F6005D8E5C /* LaunchScreen.storyboard */; };
+		E06693851BE0C7F6005D8E5C /* YRNewsReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E06693841BE0C7F6005D8E5C /* YRNewsReportTests.m */; };
+		E06693901BE0C7F6005D8E5C /* YRNewsReportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E066938F1BE0C7F6005D8E5C /* YRNewsReportUITests.m */; };
+		E06693A71BE0C863005D8E5C /* YRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06693A01BE0C863005D8E5C /* YRMainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E06693A81BE0C863005D8E5C /* YRMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E06693A41BE0C863005D8E5C /* YRMainButton.m */; settings = {ASSET_TAGS = (); }; };
+		E06693A91BE0C863005D8E5C /* YRMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E06693A61BE0C863005D8E5C /* YRMainView.m */; settings = {ASSET_TAGS = (); }; };
+		E06E25F91BE8928900AE88C0 /* YRTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06E25F81BE8928900AE88C0 /* YRTitleTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E09D7C8C1BE1B67E00B93809 /* YRClassesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D7C8B1BE1B67E00B93809 /* YRClassesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E09D7C901BE1C7FB00B93809 /* OPCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D7C8F1BE1C7FB00B93809 /* OPCommon.m */; settings = {ASSET_TAGS = (); }; };
+		E09D7C931BE1CB4100B93809 /* YRLeftBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E09D7C921BE1CB4100B93809 /* YRLeftBarView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E06693811BE0C7F6005D8E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E066935F1BE0C7F5005D8E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06693661BE0C7F5005D8E5C;
+			remoteInfo = YRNewsReport;
+		};
+		E066938C1BE0C7F6005D8E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E066935F1BE0C7F5005D8E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06693661BE0C7F5005D8E5C;
+			remoteInfo = YRNewsReport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E05869011BE7628A00FFFB5E /* YRTitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTitleScrollView.h; sourceTree = "<group>"; };
+		E05869021BE7628A00FFFB5E /* YRTitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRTitleScrollView.m; sourceTree = "<group>"; };
+		E06693671BE0C7F5005D8E5C /* YRNewsReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRNewsReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E066936B1BE0C7F6005D8E5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E066936D1BE0C7F6005D8E5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E066936E1BE0C7F6005D8E5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E06693741BE0C7F6005D8E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E06693761BE0C7F6005D8E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E06693791BE0C7F6005D8E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E066937B1BE0C7F6005D8E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06693801BE0C7F6005D8E5C /* YRNewsReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRNewsReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06693841BE0C7F6005D8E5C /* YRNewsReportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRNewsReportTests.m; sourceTree = "<group>"; };
+		E06693861BE0C7F6005D8E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E066938B1BE0C7F6005D8E5C /* YRNewsReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRNewsReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E066938F1BE0C7F6005D8E5C /* YRNewsReportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRNewsReportUITests.m; sourceTree = "<group>"; };
+		E06693911BE0C7F6005D8E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E066939F1BE0C863005D8E5C /* YRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRMainViewController.h; sourceTree = "<group>"; };
+		E06693A01BE0C863005D8E5C /* YRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRMainViewController.m; sourceTree = "<group>"; };
+		E06693A31BE0C863005D8E5C /* YRMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRMainButton.h; sourceTree = "<group>"; };
+		E06693A41BE0C863005D8E5C /* YRMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRMainButton.m; sourceTree = "<group>"; };
+		E06693A51BE0C863005D8E5C /* YRMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRMainView.h; sourceTree = "<group>"; };
+		E06693A61BE0C863005D8E5C /* YRMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRMainView.m; sourceTree = "<group>"; };
+		E06693AC1BE0C8A9005D8E5C /* YRCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRCommon.h; sourceTree = "<group>"; };
+		E06E25F71BE8928900AE88C0 /* YRTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTitleTableViewController.h; sourceTree = "<group>"; };
+		E06E25F81BE8928900AE88C0 /* YRTitleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRTitleTableViewController.m; sourceTree = "<group>"; };
+		E09D7C8A1BE1B67E00B93809 /* YRClassesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRClassesTableViewController.h; sourceTree = "<group>"; };
+		E09D7C8B1BE1B67E00B93809 /* YRClassesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRClassesTableViewController.m; sourceTree = "<group>"; };
+		E09D7C8E1BE1C7FB00B93809 /* OPCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPCommon.h; sourceTree = "<group>"; };
+		E09D7C8F1BE1C7FB00B93809 /* OPCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPCommon.m; sourceTree = "<group>"; };
+		E09D7C911BE1CB4100B93809 /* YRLeftBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRLeftBarView.h; sourceTree = "<group>"; };
+		E09D7C921BE1CB4100B93809 /* YRLeftBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRLeftBarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06693641BE0C7F5005D8E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E066937D1BE0C7F6005D8E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06693881BE0C7F6005D8E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E066935E1BE0C7F5005D8E5C = {
+			isa = PBXGroup;
+			children = (
+				E06693691BE0C7F6005D8E5C /* YRNewsReport */,
+				E06693831BE0C7F6005D8E5C /* YRNewsReportTests */,
+				E066938E1BE0C7F6005D8E5C /* YRNewsReportUITests */,
+				E06693681BE0C7F5005D8E5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E06693681BE0C7F5005D8E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06693671BE0C7F5005D8E5C /* YRNewsReport.app */,
+				E06693801BE0C7F6005D8E5C /* YRNewsReportTests.xctest */,
+				E066938B1BE0C7F6005D8E5C /* YRNewsReportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06693691BE0C7F6005D8E5C /* YRNewsReport */ = {
+			isa = PBXGroup;
+			children = (
+				E066939D1BE0C847005D8E5C /* Classes */,
+				E066936D1BE0C7F6005D8E5C /* AppDelegate.h */,
+				E066936E1BE0C7F6005D8E5C /* AppDelegate.m */,
+				E06693731BE0C7F6005D8E5C /* Main.storyboard */,
+				E06693761BE0C7F6005D8E5C /* Assets.xcassets */,
+				E06693781BE0C7F6005D8E5C /* LaunchScreen.storyboard */,
+				E066937B1BE0C7F6005D8E5C /* Info.plist */,
+				E066936A1BE0C7F6005D8E5C /* Supporting Files */,
+			);
+			path = YRNewsReport;
+			sourceTree = "<group>";
+		};
+		E066936A1BE0C7F6005D8E5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E066936B1BE0C7F6005D8E5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E06693831BE0C7F6005D8E5C /* YRNewsReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				E06693841BE0C7F6005D8E5C /* YRNewsReportTests.m */,
+				E06693861BE0C7F6005D8E5C /* Info.plist */,
+			);
+			path = YRNewsReportTests;
+			sourceTree = "<group>";
+		};
+		E066938E1BE0C7F6005D8E5C /* YRNewsReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E066938F1BE0C7F6005D8E5C /* YRNewsReportUITests.m */,
+				E06693911BE0C7F6005D8E5C /* Info.plist */,
+			);
+			path = YRNewsReportUITests;
+			sourceTree = "<group>";
+		};
+		E066939D1BE0C847005D8E5C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E09D7C8D1BE1C7CD00B93809 /* Untils */,
+				E06693AB1BE0C886005D8E5C /* Common */,
+				E06693AA1BE0C871005D8E5C /* Main */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E066939E1BE0C863005D8E5C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E066939F1BE0C863005D8E5C /* YRMainViewController.h */,
+				E06693A01BE0C863005D8E5C /* YRMainViewController.m */,
+				E09D7C8A1BE1B67E00B93809 /* YRClassesTableViewController.h */,
+				E09D7C8B1BE1B67E00B93809 /* YRClassesTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E06693A11BE0C863005D8E5C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E06693A21BE0C863005D8E5C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E06693A51BE0C863005D8E5C /* YRMainView.h */,
+				E06693A61BE0C863005D8E5C /* YRMainView.m */,
+				E06693A31BE0C863005D8E5C /* YRMainButton.h */,
+				E06693A41BE0C863005D8E5C /* YRMainButton.m */,
+				E09D7C911BE1CB4100B93809 /* YRLeftBarView.h */,
+				E09D7C921BE1CB4100B93809 /* YRLeftBarView.m */,
+				E05869011BE7628A00FFFB5E /* YRTitleScrollView.h */,
+				E05869021BE7628A00FFFB5E /* YRTitleScrollView.m */,
+				E06E25F71BE8928900AE88C0 /* YRTitleTableViewController.h */,
+				E06E25F81BE8928900AE88C0 /* YRTitleTableViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E06693AA1BE0C871005D8E5C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E066939E1BE0C863005D8E5C /* controller */,
+				E06693A11BE0C863005D8E5C /* model */,
+				E06693A21BE0C863005D8E5C /* view */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		E06693AB1BE0C886005D8E5C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E06693AC1BE0C8A9005D8E5C /* YRCommon.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E09D7C8D1BE1C7CD00B93809 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				E09D7C8E1BE1C7FB00B93809 /* OPCommon.h */,
+				E09D7C8F1BE1C7FB00B93809 /* OPCommon.m */,
+			);
+			name = Untils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06693661BE0C7F5005D8E5C /* YRNewsReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06693941BE0C7F6005D8E5C /* Build configuration list for PBXNativeTarget "YRNewsReport" */;
+			buildPhases = (
+				E06693631BE0C7F5005D8E5C /* Sources */,
+				E06693641BE0C7F5005D8E5C /* Frameworks */,
+				E06693651BE0C7F5005D8E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRNewsReport;
+			productName = YRNewsReport;
+			productReference = E06693671BE0C7F5005D8E5C /* YRNewsReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E066937F1BE0C7F6005D8E5C /* YRNewsReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06693971BE0C7F6005D8E5C /* Build configuration list for PBXNativeTarget "YRNewsReportTests" */;
+			buildPhases = (
+				E066937C1BE0C7F6005D8E5C /* Sources */,
+				E066937D1BE0C7F6005D8E5C /* Frameworks */,
+				E066937E1BE0C7F6005D8E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06693821BE0C7F6005D8E5C /* PBXTargetDependency */,
+			);
+			name = YRNewsReportTests;
+			productName = YRNewsReportTests;
+			productReference = E06693801BE0C7F6005D8E5C /* YRNewsReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E066938A1BE0C7F6005D8E5C /* YRNewsReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E066939A1BE0C7F6005D8E5C /* Build configuration list for PBXNativeTarget "YRNewsReportUITests" */;
+			buildPhases = (
+				E06693871BE0C7F6005D8E5C /* Sources */,
+				E06693881BE0C7F6005D8E5C /* Frameworks */,
+				E06693891BE0C7F6005D8E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E066938D1BE0C7F6005D8E5C /* PBXTargetDependency */,
+			);
+			name = YRNewsReportUITests;
+			productName = YRNewsReportUITests;
+			productReference = E066938B1BE0C7F6005D8E5C /* YRNewsReportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E066935F1BE0C7F5005D8E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YR;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = urun;
+				TargetAttributes = {
+					E06693661BE0C7F5005D8E5C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E066937F1BE0C7F6005D8E5C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E06693661BE0C7F5005D8E5C;
+					};
+					E066938A1BE0C7F6005D8E5C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E06693661BE0C7F5005D8E5C;
+					};
+				};
+			};
+			buildConfigurationList = E06693621BE0C7F5005D8E5C /* Build configuration list for PBXProject "YRNewsReport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E066935E1BE0C7F5005D8E5C;
+			productRefGroup = E06693681BE0C7F5005D8E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06693661BE0C7F5005D8E5C /* YRNewsReport */,
+				E066937F1BE0C7F6005D8E5C /* YRNewsReportTests */,
+				E066938A1BE0C7F6005D8E5C /* YRNewsReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06693651BE0C7F5005D8E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E066937A1BE0C7F6005D8E5C /* LaunchScreen.storyboard in Resources */,
+				E06693771BE0C7F6005D8E5C /* Assets.xcassets in Resources */,
+				E06693751BE0C7F6005D8E5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E066937E1BE0C7F6005D8E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06693891BE0C7F6005D8E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06693631BE0C7F5005D8E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09D7C931BE1CB4100B93809 /* YRLeftBarView.m in Sources */,
+				E05869031BE7628A00FFFB5E /* YRTitleScrollView.m in Sources */,
+				E06693A81BE0C863005D8E5C /* YRMainButton.m in Sources */,
+				E06693A71BE0C863005D8E5C /* YRMainViewController.m in Sources */,
+				E066936F1BE0C7F6005D8E5C /* AppDelegate.m in Sources */,
+				E09D7C8C1BE1B67E00B93809 /* YRClassesTableViewController.m in Sources */,
+				E09D7C901BE1C7FB00B93809 /* OPCommon.m in Sources */,
+				E06E25F91BE8928900AE88C0 /* YRTitleTableViewController.m in Sources */,
+				E06693A91BE0C863005D8E5C /* YRMainView.m in Sources */,
+				E066936C1BE0C7F6005D8E5C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E066937C1BE0C7F6005D8E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06693851BE0C7F6005D8E5C /* YRNewsReportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06693871BE0C7F6005D8E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06693901BE0C7F6005D8E5C /* YRNewsReportUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E06693821BE0C7F6005D8E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06693661BE0C7F5005D8E5C /* YRNewsReport */;
+			targetProxy = E06693811BE0C7F6005D8E5C /* PBXContainerItemProxy */;
+		};
+		E066938D1BE0C7F6005D8E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06693661BE0C7F5005D8E5C /* YRNewsReport */;
+			targetProxy = E066938C1BE0C7F6005D8E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E06693731BE0C7F6005D8E5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06693741BE0C7F6005D8E5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E06693781BE0C7F6005D8E5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06693791BE0C7F6005D8E5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E06693921BE0C7F6005D8E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E06693931BE0C7F6005D8E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06693951BE0C7F6005D8E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YRNewsReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gzyr.YRNewsReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E06693961BE0C7F6005D8E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YRNewsReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gzyr.YRNewsReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E06693981BE0C7F6005D8E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YRNewsReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gzyr.YRNewsReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YRNewsReport.app/YRNewsReport";
+			};
+			name = Debug;
+		};
+		E06693991BE0C7F6005D8E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YRNewsReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gzyr.YRNewsReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YRNewsReport.app/YRNewsReport";
+			};
+			name = Release;
+		};
+		E066939B1BE0C7F6005D8E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YRNewsReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gzyr.YRNewsReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YRNewsReport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E066939C1BE0C7F6005D8E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YRNewsReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gzyr.YRNewsReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YRNewsReport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06693621BE0C7F5005D8E5C /* Build configuration list for PBXProject "YRNewsReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06693921BE0C7F6005D8E5C /* Debug */,
+				E06693931BE0C7F6005D8E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06693941BE0C7F6005D8E5C /* Build configuration list for PBXNativeTarget "YRNewsReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06693951BE0C7F6005D8E5C /* Debug */,
+				E06693961BE0C7F6005D8E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06693971BE0C7F6005D8E5C /* Build configuration list for PBXNativeTarget "YRNewsReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06693981BE0C7F6005D8E5C /* Debug */,
+				E06693991BE0C7F6005D8E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E066939A1BE0C7F6005D8E5C /* Build configuration list for PBXNativeTarget "YRNewsReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E066939B1BE0C7F6005D8E5C /* Debug */,
+				E066939C1BE0C7F6005D8E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E066935F1BE0C7F5005D8E5C /* Project object */;
+}
